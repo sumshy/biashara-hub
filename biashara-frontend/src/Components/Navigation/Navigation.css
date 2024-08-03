@@ -1,0 +1,100 @@
+/* src/index.css */
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo img {
+    width: 100px; /* Adjust the height as needed */
+    height: auto;
+    
+  }
+  
+  .links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .link {
+    display: block;
+    color: #603914;
+    text-decoration: none;
+    padding: 8px 16px;
+    transition: background-color 0.3s ease;
+    font-size: 24px;
+  }
+
+  
+  .link:hover {
+    background-color: #eee;
+  }
+  
+  .link:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: #c83f49;
+    transition: width 0.3s ease;
+  }
+  
+  .link:hover:after {
+    width: 100%;
+  }
+  
+  .nav-button {
+    background-color: transparent;
+    border: 2px solid #E2725B;
+    color: #E2725B;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0 8px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .nav-button:hover {
+    background-color: #E2725B;
+    color: white;
+  }
+  
+  .nav-button-container {
+    display: flex;
+    align-items: center;
+    gap: 16px; /* Space between buttons */
+  }
+  
+  .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    text-align: center;  /* Center text horizontally */
+  }
+  
+  
+  .logotext {
+    margin-top: 2px; /* Space between the image and text */
+  }
+  
+  .logotext p {
+    margin: 0; /* Remove default margin */
+    font-size: 1.0rem; /* Adjust font size as needed */
+    color: #603914; /* Adjust text color as needed */
+    white-space: nowrap; /* Prevent text from wrapping */
+    text-decoration: none; /* Ensure no underline */
+    /* Example of increasing specificity */
+  }
+  .logo .logotext p {
+    text-decoration: none;
+  }
+  

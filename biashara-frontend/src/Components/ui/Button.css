@@ -1,0 +1,41 @@
+/* Base button styles */
+.button {
+    border: 1px solid;
+    border-radius: 4px;
+    display: inline-block;
+    transition: transform 0.3s ease;
+    max-width: max-content;
+}
+
+.button:hover {
+    transform: translateY(-4px);
+}
+
+.button:disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+/* Variant styles */
+.button.primary {
+    background-color: var(--button-secondary-bg-color); /* Adjust this variable to match your color */
+    color: var(--primary-text-color); /* Adjust this variable to match your color */
+    border-color: transparent;
+}
+
+.button.outline {
+    background-color: transparent;
+    color: var(--primary-text-color); /* Adjust this variable to match your color */
+    border-color: var(--primary-border-color); /* Adjust this variable to match your color */
+}
+
+/* Size styles */
+.button.small {
+    font-size: 0.875rem; /* Equivalent to text-sm */
+    padding: 0.25rem 0.5rem; /* Equivalent to py-1 px-2 */
+}
+
+.button.medium {
+    font-size: 0.875rem; /* Equivalent to text-sm */
+    padding: 0.5rem 1rem; /* Equivalent to py-2 px-4 */
+}

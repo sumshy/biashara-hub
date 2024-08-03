@@ -1,0 +1,37 @@
+.sidenav {
+    width: 200px;
+    height: 100vh;
+    background-color: #961F41;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .sidenav ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .sidenav li {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .sidenav li .icon {
+    margin-right: 10px;
+  }
+  
+  .sidenav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .sidenav a:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,40 @@
+/* MyProduct.css */
+
+/* Grid layout for products */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); /* Responsive grid */
+    gap: 20px; /* Space between grid items */
+    padding: 20px; /* Padding around the grid */
+}
+
+/* Loader styling */
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height loading screen */
+}
+
+/* Error message styling */
+.error-message {
+    color: #e63946; /* Red color for errors */
+    font-size: 1.2em; /* Larger font size */
+    text-align: center; /* Centered text */
+    margin: 20px; /* Margin around the error message */
+}
+
+/* No products message styling */
+.no-products-message {
+    color: #555; /* Gray color for no products message */
+    font-size: 1.2em; /* Larger font size */
+    text-align: center; /* Centered text */
+    margin: 20px; /* Margin around the message */
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    .product-grid {
+        grid-template-columns: 1fr; /* Single column layout on small screens */
+    }
+}

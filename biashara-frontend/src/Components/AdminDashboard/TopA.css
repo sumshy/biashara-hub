@@ -1,0 +1,56 @@
+
+.topnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* position: fixed;  Ensures the navbar stays on top */
+    top: 0;
+    width: 100%;
+    z-index: 1000;  /* Ensures it is above other elements */
+  }
+  
+  .left-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 0px;
+  }
+  
+  .dashboard-text {
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 0px;
+  }
+  
+  .right-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+  }
+  
+  .search-icon {
+    color: #961F41;
+    margin-right: 5px;
+  }
+  
+  .search-input {
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 14px;
+  }
+  

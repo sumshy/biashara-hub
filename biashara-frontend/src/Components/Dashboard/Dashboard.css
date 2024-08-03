@@ -1,0 +1,80 @@
+.dashboard-container {
+  display: flex;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.dashboard-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.stats-cards {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.card {
+  background: #fff;
+  padding: 20px;
+  margin-right: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.table-section {
+  margin-bottom: 20px;
+}
+
+.table-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.search-input {
+  width: 300px; /* Longer search input */
+  padding: 8px;
+  border-radius: 20px; /* Rounded corners */
+  border: 1px solid #ccc;
+}
+
+.filter-button {
+  padding: 8px 12px;
+  background-color: #961F41;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 12px;
+  border: 1px solid #ccc;
+}
+
+.right-section {
+  margin-top: 20px;
+}
+
+.most-used-providers,
+.frequently-used-services {
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 8px 12px;
+  background-color: #961F41;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}

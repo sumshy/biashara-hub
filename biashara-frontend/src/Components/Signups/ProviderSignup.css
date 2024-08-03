@@ -1,0 +1,128 @@
+/* ProviderSignup.css */
+
+.provider-signup-container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  background-color: #F5E9EC;
+}
+
+.left-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F5E9EC;
+}
+
+.left-image {
+  max-width: 100%;
+  height: 900px;
+}
+
+.right-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.signup-logo {
+  width: 100px; /* Adjust according to your logo size */
+  margin-bottom: 20px;
+}
+
+.signup-heading {
+  font-size: 2rem;
+  color: #603914;
+  margin-bottom: 20px;
+}
+
+.signup-form {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 1rem;
+  color: #603914;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.signup-button {
+  background-color: #603914;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.signup-button:hover {
+  background-color: #961F41;
+}
+
+.or-divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.or-divider span {
+  background-color: #ffffff;
+  padding: 0 10px;
+  color: #603914;
+}
+
+.or-divider::before,
+.or-divider::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #ccc;
+}
+
+.social-login {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+}
+
+.google-button,
+.apple-button {
+  background-color: #ffffff;
+  color: #603914;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.google-button:hover,
+.apple-button:hover {
+  background-color: #f1f1f1;
+}

@@ -1,0 +1,80 @@
+/* Fashion.css */
+
+.fashion-section {
+    margin: 40px 0;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .fashion-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .fashion-header h2 {
+    margin: 0;
+    font-size: 28px;
+    color: #871C3B;
+  }
+  
+  .view-more {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: #871C3B;
+  }
+  
+ 
+  .arrow-icon {
+    font-size: 20px;
+  }
+  
+  .fashion-cards {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .fashion-card {
+    background-color: #f9f9f9;
+    border: 2px solid #871C3B;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+  }
+  
+  .fashion-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .fashion-name {
+    font-size: 20px;
+    margin: 10px 0;
+    color: #871C3B;
+  }
+  
+  .food-text {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  .view-details-button {
+    background-color: transparent;
+    border: 2px solid #E2725B;;
+    color: #E2725B;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .view-details-button:hover {
+    background-color: #E2725B;;
+    color: #fff;
+  }
+  

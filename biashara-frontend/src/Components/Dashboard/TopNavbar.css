@@ -1,0 +1,31 @@
+.top-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.search-section {
+  display: flex;
+  align-items: center;
+  margin: 0 auto; /* Centering the top navbar */
+}
+
+.search-icon {
+  margin-right: 10px;
+}
+
+.search-input {
+  width: 300px;
+  padding: 8px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+}
+
+.user-profile .profile-icon {
+  font-size: 24px;
+  cursor: pointer;
+}

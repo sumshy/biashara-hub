@@ -1,0 +1,44 @@
+/* Base text styles */
+.text {
+    cursor: pointer;
+}
+
+/* Variant styles */
+.text.description {
+    font-size: 0.75rem; /* Equivalent to text-xs */
+}
+
+.text.productTitle {
+    line-height: 1.25rem; /* Equivalent to leading-5 */
+}
+
+.text.titleXl {
+    font-size: 1.25rem; /* Equivalent to text-xl */
+    font-weight: 600; /* Equivalent to font-semibold */
+    letter-spacing: 0.05em; /* Equivalent to tracking-wide */
+}
+
+.text.titleSm {
+    font-size: 0.875rem; /* Equivalent to text-sm */
+    letter-spacing: 0.05em; /* Equivalent to tracking-wide */
+}
+
+.text.price {
+    font-size: 1.25rem; /* Equivalent to text-xl */
+    font-weight: 500; /* Equivalent to font-medium */
+}
+
+.text.infoSm {
+    font-size: 0.875rem; /* Equivalent to text-sm */
+    color: var(--secondary-text-color); /* Adjust this variable to match your color */
+}
+
+.text.infoXs {
+    font-size: 0.75rem; /* Equivalent to text-xs */
+    color: var(--secondary-text-color); /* Adjust this variable to match your color */
+}
+
+.text.error {
+    font-size: 0.75rem; /* Equivalent to text-xs */
+    color: #f56565; /* Equivalent to text-red-500 */
+}

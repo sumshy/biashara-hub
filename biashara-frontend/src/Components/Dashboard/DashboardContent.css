@@ -1,0 +1,89 @@
+.dashboard-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  .left-column {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .right-column {
+    flex: 0.4; /* Adjust width as needed */
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    background: rgb(218, 164, 164);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+  }
+  .most-used h4{
+    text-align: left;
+    color: black;
+  }
+  h4{
+    text-align: left;
+  }
+  .search-filter {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-filter input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 80%;
+    margin-right: 10px;
+  }
+  
+  .search-filter button {
+    background: #961F41;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  table th,
+  table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  table th {
+    background: #f4f4f4;
+  }
+  
+  .right-column .most-used,
+  .right-column .frequently-used {
+    margin-bottom: 20px;
+  }
+  
+  .timestamp {
+    text-align: center;
+    margin-top: 20px;
+  }
+  

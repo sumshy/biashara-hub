@@ -1,0 +1,78 @@
+.osignup-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .osignup-left {
+    flex: 1;
+  }
+  
+  .osignup-image {
+    max-width: 100%;
+    height: 900px;
+  }
+  
+  .osignup-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .osignup-logo {
+    width: 150px; /* Adjust size as needed */
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .osignup-buttons {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    align-items: center;
+  }
+  
+  .osignup-button {
+    text-decoration: none; /* Remove underline */
+    display: block; /* Make the anchor tag a block-level element */
+    background-color: #E2725B;
+    color: white;
+    border: none;
+    padding: 15px 40px; /* Longer padding */
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center; /* Center text */
+    transition: background-color 0.3s ease;
+    width: 100%; /* Make buttons full width */
+  }
+  
+  
+  .osignup-button:hover {
+    background-color: #961F41;
+  }
+  
+  .osignup-button:not(:disabled) {
+    border-radius: 5px; /* Rounded corners when not disabled */
+  }
+  
+  .osignup-text {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .osignup-text a {
+    color: #E2725B;
+    text-decoration: none;
+  }
+  
+  .osignup-text a:hover {
+    text-decoration: underline;
+  }
+  

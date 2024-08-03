@@ -1,0 +1,104 @@
+.Details {
+  /* background-color: #f5e9ec; */
+  padding: 20px;
+}
+
+.info1, .info2 {
+  display: flex;
+  justify-content: space-between;
+  background-color: #961f41;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.column {
+  flex: 1;
+  margin: 10px;
+  min-height: 400px; 
+  
+}
+
+.service-image {
+  width: 100%;             /* Make the image responsive */
+  height: auto;           /* Maintain aspect ratio */
+  border-radius: 8px;     /* Add rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  margin-bottom: 16px;    /* Space below the image */
+  max-width: 400px;       /* Set a maximum width */
+  object-fit: cover;      /* Ensure the image covers the area */
+}
+
+.service-image, .ad-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.ad-image{
+  align-items: center;
+}
+
+.rating, .contact-info {
+  margin: 10px 0;
+}
+
+.contact-info p {
+  margin: 5px 0;
+}
+
+.card, .ad-card {
+  padding: 20px;
+  border-radius: 10px;
+  color: #603914;
+  margin-bottom: 20px;
+  
+}
+
+.card {
+  width: 80%; /* Adjust this value as needed */
+  margin: 0 auto; /* Center the card horizontally */
+}
+
+
+.book-service {
+  background-color: #603914;
+  
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.book-service:hover {
+  background-color: #961f41;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.service-item {
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.service-item:hover {
+  text-decoration: underline;
+}
+
+.ads {
+  display: flex;
+  flex-direction: column;
+}
+
+.ad-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.ad-card {
+  flex: 1 1 30%; /* Adjust this value to control the width of ad cards */
+  min-width: 200px; /* Adjust the minimum width as needed */
+}

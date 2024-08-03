@@ -1,0 +1,17 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.service-item {
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.service-item:hover {
+    text-decoration: underline;
+}
+
+.title {
+    margin-top: 20px; /* Equivalent to mt-5 */
+}
