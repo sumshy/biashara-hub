@@ -109,7 +109,7 @@ function ProviderSignup() {
     const role = 'provider'
     try {
       // Make HTTP POST request to the login API endpoint
-      const response = await fetch('http://localhost:5000/api/auth/provider/signup', {
+      const response = await fetch('https://biashara-hub.onrender.com/api/auth/provider/signup', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

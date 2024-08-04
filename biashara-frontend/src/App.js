@@ -43,7 +43,7 @@ function App() {
             <Route path="/appliancemore" element={<Appliancecat />} />
             <Route path="/movingmore" element={<Movingcat />} />
             <Route path="/help" element={<Help/>} />
-            <Route path="/details" element={<Details/>} />
+            <Route path="/details/:id" element={<Details/>} />
             <Route path="/book" element={<Book/>} />
             <Route path="/profile" element={<Userprof/>} />
             <Route path="/dashboard/addproduct" element={<ProductForm/>} />

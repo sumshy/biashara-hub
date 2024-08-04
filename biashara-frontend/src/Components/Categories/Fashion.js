@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
-import './Fashion.css';
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import "./Fashion.css";
 import f1 from "../Assests/F1.png";
 import f2 from "../Assests/F2.png";
 import f3 from "../Assests/F3.png";
@@ -15,20 +15,20 @@ const Fashion = () => {
     {
       id: 1,
       image: f1,
-      name: 'Oldayo store',
-      text: 'Get all kind of wears within your reach and get it delivered to you, get to select and buy in the comfort of your house',
+      name: "Oldayo store",
+      text: "Get all kind of wears within your reach and get it delivered to you, get to select and buy in the comfort of your house",
     },
     {
       id: 2,
       image: f2,
-      name: 'Ife FashionHub',
-      text: 'Get all kind of wears within your reach and get it delivered to you, get to select and buy in the comfort of your house',
+      name: "Ife FashionHub",
+      text: "Get all kind of wears within your reach and get it delivered to you, get to select and buy in the comfort of your house",
     },
     {
       id: 3,
       image: f3,
-      name: 'Zee Thrift',
-      text: 'Zee thrifts brings affordable thrift wears to the comfort of your home. No more searching for thrift sellers, that’s why we are here',
+      name: "Zee Thrift",
+      text: "Zee thrifts brings affordable thrift wears to the comfort of your home. No more searching for thrift sellers, that’s why we are here",
     },
   ];
 
@@ -41,7 +41,7 @@ const Fashion = () => {
   };
 
   const handleViewSeller = () => {
-    navigate('/details');
+    navigate(`/details/${selectedItem?.id}`);
   };
 
   return (
@@ -54,12 +54,15 @@ const Fashion = () => {
         </a>
       </div>
       <div className="fashion-cards">
-        {fashionItems.map(item => (
+        {fashionItems.map((item) => (
           <div key={item.id} className="fashion-card">
             <img src={item.image} alt={item.name} className="fashion-image" />
             <h3 className="fashion-name">{item.name}</h3>
             <p className="fashion-text">{item.text}</p>
-            <button className="view-details-button" onClick={() => handleViewDetails(item)}>
+            <button
+              className="view-details-button"
+              onClick={() => handleViewDetails(item)}
+            >
               View Details
             </button>
           </div>
@@ -69,8 +72,14 @@ const Fashion = () => {
       {selectedItem && (
         <div className="modal">
           <div className="modal-content">
-            <span className="close" onClick={handleClose}>&times;</span>
-            <img src={selectedItem.image} alt={selectedItem.name} className="modal-image" />
+            <span className="close" onClick={handleClose}>
+              &times;
+            </span>
+            <img
+              src={selectedItem.image}
+              alt={selectedItem.name}
+              className="modal-image"
+            />
             <h3 className="modal-name">{selectedItem.name}</h3>
             <p className="modal-text">{selectedItem.text}</p>
             <button className="book-now-button" onClick={handleViewSeller}>

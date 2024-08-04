@@ -17,7 +17,7 @@ const Moving = () => {
     const fetchProducts = async () => {
         try {
             const token = getAuthToken();
-            const response = await fetch(`http://localhost:5000/api/client/getProductsByCategory/?category=${category}&pageNumber=${pageNumber}&limit=${limit}`, {
+            const response = await fetch(`https://biashara-hub.onrender.com/api/client/getProductsByCategory/?category=${category}&pageNumber=${pageNumber}&limit=${limit}`, {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',

@@ -96,7 +96,7 @@ function SeekerSignup() {
     const role = 'seeker'
     try {
       // Make HTTP POST request to the login API endpoint
-      const response = await fetch('http://localhost:5000/api/auth/seeker/signup', {
+      const response = await fetch('https://biashara-hub.onrender.com/api/auth/seeker/signup', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

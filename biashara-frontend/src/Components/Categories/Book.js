@@ -29,7 +29,7 @@ function Book() {
     };
     console.log(dataToSubmit)
     try {
-      const response = await fetch('http://localhost:5000/api/bookings/addBook', { 
+      const response = await fetch('https://biashara-hub.onrender.com/api/bookings/addBook', { 
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

@@ -71,7 +71,7 @@ export const getProducts = asyncErrorHandler(
         const query = Product.find({ userId })
             .sort({ createdAt: -1 })
             .skip((Number(pageNumber) - 1) * Number(limit))
-            .limit(Number(limit));
+            .limit(Number(limit)).populate('userId');
         const products = await query.exec();
         res.json(products);
     }
